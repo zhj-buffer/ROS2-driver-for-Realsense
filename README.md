@@ -12,7 +12,7 @@ sudo apt install librealsense2-dev
 
 # build
 ```
-colcon build 
+colcon build --symlink-install
 ```
 
 # Run
