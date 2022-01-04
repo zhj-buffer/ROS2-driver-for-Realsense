@@ -10,6 +10,11 @@ sudo add-apt-repository "deb https://librealsense.intel.com/Debian/apt-repo $(ls
 sudo apt install librealsense2-dev
 ```
 
+```
+git clone https://github.com/zhj-buffer/ROS2-driver-for-Realsense.git
+cd ROS2-driver-for-Realsense
+```
+
 # build
 ```
 colcon build --symlink-install
